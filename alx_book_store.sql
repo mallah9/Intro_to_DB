@@ -21,7 +21,7 @@ CREATE TABLE Authors (
     author_name VARCHAR(215)
 );
 
-CREATE TABLE Customer (
+CREATE TABLE Customers (
     customer_id INT PRIMARY KEY AUTO_INCREMENT,
     customer_name VARCHAR(215),
     email VARCHAR(215),
