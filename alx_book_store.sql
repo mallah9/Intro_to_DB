@@ -1,3 +1,5 @@
+CREATE DATABASE IF NOT EXISTS alx_book_store;
+USE alx_book_store;
 CREATE TABLE Books (
     book_id INT PRIMARY KEY AUTO_INCREMENT,
     isbn VARCHAR(20) UNIQUE,
@@ -17,4 +19,3 @@ CREATE TABLE Authors (
     author_id INT PRIMARY KEY AUTO_INCREMENT,
     author_name VARCHAR(215)
 );
-
